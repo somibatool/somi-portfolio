@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="./javascript.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <title>personal portfoilo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1 class="logo">Somi Batool</h1>
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                
+               </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-txt">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, I'm <span>Somi Batool</span><br>from Gilgit-Baltistan </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ...................about............... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/WhatsApp Image 2024-02-07 at 4.00.13 PM.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my corner of the web! I'm Somi, a passionate front-end developer dedicated to crafting immersive digital experiences. With a keen eye for design and a knack for code, I specialize in translating ideas into beautiful, functional websites and applications.
+                        
+                        Driven by a constant curiosity and a love for learning, I stay updated with the latest trends and technologies in the ever-evolving world of web development. My goal is to not only meet but exceed expectations, delivering user-friendly interfaces that captivate and engage audiences.
+                        
+                        When I'm not coding, you can find me exploring new design concepts, experimenting with different frameworks, or simply enjoying a good cup of coffee while brainstorming my next project.
+                        
+                        Let's collaborate and bring your vision to life! Whether you're seeking a responsive website, a dynamic web application, or simply want to enhance your online presence, I'm here to help transform your ideas into reality. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End developer</span> <br> Responsive Websites </li>
+                            <li><span>web development</span> <br>User friendly websites </li>
+                            <li><span>Coding</span> <br> Responsive design </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-Traning</span> <br>Hamalayan Geo Labs and Solution</li>
+                            <li><span>Internship</span> <br>SHEDEV </li>
+                            <li><span>Current</span> <br>Working as a employ in SHEDEV. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020</span> <br> Matriculation(science) </li>
+                            <li><span>2022</span> <br>College (ICS) </li>
+                            <li><span>2024</span> <br> BSSE( software engineering) </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...................services............... -->
+    <div id="services">
+        <div class="conatiner">
+            <h1 class="sub-title-services">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development</h2>
+                    <p>My journey in web development has equipped me with a keen eye for detail, a commitment to clean code, and a dedication to staying ahead of industry trends. Whether it's building from scratch or optimizing existing projects, I pride myself on delivering solutions that not only meet but exceed client expectations.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front End development</h2>
+                    <p>As a seasoned front-end developer, I bring a wealth of experience and a passion for crafting pixel-perfect websites and intuitive user interfaces. With expertise in HTML, CSS, and JavaScript, I thrive on turning creative concepts into functional, responsive designs that leave a lasting impression..</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Responsive Design</h2>
+                    <p>With a focus on responsive design, I specialize in creating websites that seamlessly adapt to various screen sizes and devices. Recognizing the importance of delivering a consistent and optimal user experience across desktops, tablets, and smartphones, I leverage the latest techniques and frameworks to ensure accessibility and usability on all platforms.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- .......................portfolio......................... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title-work">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/istockphoto-1140691099-170667a13.webp" alt="">
+                    <div class="layer">
+                        <h3>web development</h3>
+                        <p>By leveraging the capabilities of HTML, CSS, and JavaScript together, web developers can create engaging, responsive, and feature-rich web experiences that meet the needs of users and clients alike.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                   
+                   
+                </div>
+                <div class="work">
+                    <img src="./images/istockphoto-1219980553-170667a13.webp" alt="">
+                    <div class="layer">
+                        <h3>Front-End-developer</h3>
+                        <p>As a front-end developer, your role is crucial in creating engaging and user-centric web experiences, bridging the gap between design and functionality to deliver high-quality web applications.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/photo-1486312338219-ce68d2c6f44d12.avif" alt="">
+                    <div class="layer">
+                        <h3>Responsive design </h3>
+                        <p>As a front-end developer specializing in responsive design, I'm passionate about creating web experiences that adapt seamlessly to different devices and screen resolutions. I utilize CSS media queries, flexible grids, and fluid layouts to create designs that are both visually appealing and highly functional across a wide range of devices.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="./Grey and White Minimalist Graphic Designer Resume Template.pdf" download class="btn btn2">Download Cv</a>
+            <!-- <a href="#" class="btn">see more</a> -->
+        </div>
+    </div>
+    <!-- ....................contact................. -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="right-column">
+                    <div class="sub-title contact-me">contact me</div>
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="your name" requires>
+                        <input type="email" name="Email"  placeholder="your email" required>
+                        <textarea name="Message"  rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+      
+    </div>
+
+
+
+    <div class="copyright">
+        <div class="left-column">
+            <p> <i class="fa-solid fa-paper-plane"></i> somibatool44@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i> +111 0222 031 1</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100082863643029"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/fhaya0883/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/somi-batool-86b7082a3/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <p class="done">Done By <i class="fa-solid fa-heart"></i> Somi Batool</p>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+              for(tablink of tablinks){
+                  tablink.classList.remove("active-link");  }
+             for(tabcontent of tabcontents ){
+                tabcontent.classList.remove("active-tab"); }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+    </script>
+
+
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZQxOhYRpxnpeLhBWiYVQNLvgnTH691gFIVC4BUqwqc0746cv2lRxFMJ8oXvrEZ_ol/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message send sucessffully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+<!-- https://script.google.com/macros/s/AKfycbwZQxOhYRpxnpeLhBWiYVQNLvgnTH691gFIVC4BUqwqc0746cv2lRxFMJ8oXvrEZ_ol/exec -->
